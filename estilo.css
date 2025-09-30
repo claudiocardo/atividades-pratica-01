@@ -1,3 +1,53 @@
 body {
     margin: 0%;
 }
+/* começo do cabeçlho do sate */
+
+header {
+    background-color:rgb(211, 109, 109);
+    justify-content:space-around;
+    align-items:center;
+    display: flex;
+
+
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    gap: 10px;
+}
+
+
+header h1 {
+    color: aqua;
+    display: flex;
+    font-size: 40px;
+
+}
+
+header ul {
+    
+    color:white;
+    font-size:20px;
+    justify-content:right;
+    display: flex;
+    gap: 20px;
+
+}
+
+header ul li {
+
+    list-style: none;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
