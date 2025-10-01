@@ -49,5 +49,39 @@ header ul li a {
     font-weight: bold;
 }
 
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ac2323 ;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(158, 123, 123);
+    background-image: url(imagem/lupa.png);
+    background-position: 10px 10px;
+    background-repeat:no-repeat;
+    padding: 12px 20px 12px 40px ;
+}
+
+.lo {
+background-color: rgba(211, 109, 109, 0.699);
+padding:0.5%;
+
+}
+
+.lo-h3 {
+    padding:40%;
+
+}
+
+.section-01 {
+    padding: 200px;
+    background-image: url(imagem/aliança-trave.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
