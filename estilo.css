@@ -4,7 +4,7 @@ body {
 /* começo do cabeçlho do sate */
 
 header {
-    background-color:rgb(211, 109, 109);
+    background-color:#D4AF37;
     justify-content:space-around;
     align-items:center;
     display: flex;
@@ -21,7 +21,7 @@ header img {
 
 
 header h1 {
-    color: aqua;
+    color:#FDFDFB;
     display: flex;
     font-size: 40px;
 
@@ -122,6 +122,18 @@ padding:0.2%;
 
 }
 
+.section-02 {
+    background-color: blue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
+    padding: 100px;
+
+
+
+}
+
 .div-section-02 {
     width: 350px;
     height: 350px;
@@ -138,15 +150,47 @@ padding:0.2%;
 }
 
 .div-a p {
-    color: blue;
+    
     font-size: 15px;
     font-family: arial;
 
  }
 
 .div-a img {
-    color: brown;
+    width: 20px;
+    height: 20px;
+    
 } 
+
+.div-b { 
+    font-size: 20px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+
+.div-b img {
+
+}
+
+footer {
+    background-color: aqua;
+    padding: 100px;
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    color: yellow;
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+
 
 
 
