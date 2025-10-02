@@ -26,6 +26,7 @@ header h1 {
     font-size: 40px;
 
 }
+/*final do cabeçalho*/
 
 header ul {
     
@@ -56,7 +57,7 @@ input[type=text] {
     border-radius: 4px;
     font-size: 16px;
     background-color: aliceblue;
-    background-image: url(imagem/lupa.png) ;
+    background-image: url() ;
     background-position: 10px 10px;
     background-repeat:no-repeat;
     padding: 0.5px 10px 10px 150px ;
@@ -69,18 +70,25 @@ input img.url {
 }
 
 .lo {
-background-color: rgb(211, 109, 109);
+background-color: #D4AF37;
 padding:0.2%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+
 
 }
 
-.lo td {
+.lo div {
     padding:0.2%;
     font-size: 15px;
     color: black;
-    text-align: right;
+    text-align: center;
     align-items: center;
     justify-content: space-evenly;
+    display: flex;
+    gap: 10px;
 
 }
 
@@ -95,7 +103,12 @@ padding:0.2%;
 
 }
 
-   
+.lo a {
+    text-decoration: none;
+    color: black;
+}
+
+/*final do segundo cabeçalho*/
 
 .na img {
     padding: 15px;
@@ -110,86 +123,173 @@ padding:0.2%;
     padding:0.5%;
     
 }
+/* imagem fixa  */
+.imagem-fixa {
 
-.section-01 {
-    padding: 200px;
     background-image: url(imagem/aliança-trave.jpg);
     background-attachment: fixed;
-    background-position: center top;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    
 }
 
 .section-02 {
     background-color: blue;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
-    gap: 15px;
-    padding: 100px;
-
-
+    gap: 30px;
+    padding: 50px;
 
 }
 
-.div-section-02 {
-    width: 350px;
-    height: 350px;
-    background-color: turquoise;
-    text-align: center;
-    padding: 15px;
-    border-radius: 20px;
+.div-a a {
+    text-decoration: none;
+    color: black;
 }
 
 .div-a {
-    font-size: 20px;
-    color: blanchedalmond;
-    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 200px;
 }
 
 .div-a p {
-    
+    color: chocolate;
     font-size: 15px;
     font-family: arial;
+    font-weight: bold;
+    list-style: none;
+
 
  }
 
 .div-a img {
     width: 20px;
+    padding: 25px;
     height: 20px;
     
 } 
 
-.div-b { 
-    font-size: 20px;
-    color: blanchedalmond;
-    text-transform: uppercase;
+.div-a:hover {
+    background-color: rgb(211, 109, 109);
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
+    color: yellow;
+
 }
 
-.div-b img {
+/*ibniçio da pagina brincos*/
 
+.section-b {
+
+    background-color: blue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
 }
+
+.div-b {
+    text-align: center;
+    width: 200px;
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 200px;
+}
+/* inicio do footer */
 
 footer {
     background-color: aqua;
-    padding: 100px;
+    padding: 20px;
     color: chocolate;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    gap: 20px;
+}
+
+footer i {
+    color:black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-self: unset;
+
+}
+
+footer p {
+    font-size: 15px;
+    color:black;
     text-align: center;
-    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-footer {
-    color: yellow;
-    font-size: 30px;
-    margin-left: 20px;
+    footer h2 {
+        margin: 0;
+        font-size: 20px;
+        color: black;
 
+    }
+
+    footer ul {
+        list-style: none;
+        padding: 0%;
+
+
+    }
+
+    footer ul li {
+        display: inline;
+        margin-right: 10px;
+        list-style: none;
+
+
+    }
+
+    footer ul li a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+/* final do footer */
+
+/* responsividade */
+@media (max-width: 600px) {
+    .section-02 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-a {
+        width: 100%;
+        max-width: 300px;
+    }
 }
 
+/* final da responsividade */
 
 
 
