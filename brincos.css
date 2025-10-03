@@ -1,0 +1,22 @@
+.section-b {
+
+    background-color: blue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.div-b {
+    text-align: center;
+    width: 200px;
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 200px;
+}

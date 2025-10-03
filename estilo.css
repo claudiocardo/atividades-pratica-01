@@ -119,7 +119,7 @@ text-align: center;
 }
 
 .na {
-    background-color: rgb(211, 109, 109);
+    background-color: white;
     padding:0.5%;
     
 }
@@ -136,7 +136,7 @@ text-align: center;
 }
 
 .section-02 {
-    background-color: blue;
+    background-color:#f8DF82;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -152,74 +152,59 @@ text-align: center;
 
 .div-a {
     text-align: center;
-    width: 200px;
-    background-color: aqua;
-    padding: 20px;
+    width: 280px;
+    background-color:#D4AF37;
+    padding: 0px;
     box-shadow: 5px 5px 10px black;
     border-radius: 10px;
     align-items: center;
     flex-direction: column;
     display: flex;
-    height: 200px;
+    height: 300px;
 }
 
 .div-a p {
-    color: chocolate;
+    color: black;
     font-size: 15px;
     font-family: arial;
     font-weight: bold;
     list-style: none;
+    padding: 0px;
 
 
- }
+} 
+
+.div-a i {
+padding: 35px;
+
+}
+
 
 .div-a img {
-    width: 20px;
-    padding: 25px;
-    height: 20px;
+    width: 250px;
+    padding: 0px;
+    height: 110px;
     
 } 
 
 .div-a:hover {
-    background-color: rgb(211, 109, 109);
+    background-color: white;
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 10px 10px 20px black;
     cursor: pointer;
-    color: yellow;
+    color: black;
 
 }
 
 /*ibniçio da pagina brincos*/
 
-.section-b {
 
-    background-color: blue;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    gap: 30px;
-    padding: 50px;
-}
-
-.div-b {
-    text-align: center;
-    width: 200px;
-    background-color: aqua;
-    padding: 20px;
-    box-shadow: 5px 5px 10px black;
-    border-radius: 10px;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    height: 200px;
-}
 /* inicio do footer */
 
 footer {
-    background-color: aqua;
+    background-color: #D4AF37;
     padding: 20px;
-    color: chocolate;
     display: flex;
     justify-content: space-around;
     align-items: center;
