@@ -197,6 +197,14 @@ padding: 35px;
 
 }
 
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
 /*ibniçio da pagina brincos*/
 
 
