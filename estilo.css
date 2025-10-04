@@ -203,6 +203,13 @@ padding: 35px;
     align-items: center;
     padding: 10px;
 
+
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 /*ibniçio da pagina brincos*/
