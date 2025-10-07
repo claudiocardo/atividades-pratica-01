@@ -213,9 +213,9 @@ padding: 35px;
 
 .input {
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
-    padding: 10px;
+    padding: 50px;
 
 
 }
@@ -244,16 +244,47 @@ padding: 35px;
     box-shadow: 5px 5px 10px black;
     border-radius: 10px;
     height: 150px;
+    width: 350px;
+    text-align: center;
 }
 
 .cadastro p {
+    justify-content: center;
+    display: flex;
     font-size: 10px;
-    color: black;
+    color:white;
     font-weight: bold;
     text-align: center;
+    padding: 0px;
 
 }
 
+.cadastro .desconto {
+    font-size: 30px;
+    color:brown;
+
+}
+
+.cadastro:hover {
+    background-color:black;
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 15px 15px 25px #D4AF37;
+    cursor: pointer;
+    color: black;
+}
+
+.cadastro button {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display:flex;
+    font-size: 16px;
+    border-radius: 20px;
+    text-decoration:underline
+}
 /*início da pagina brincos*/
 
 

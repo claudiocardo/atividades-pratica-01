@@ -4,7 +4,7 @@ ody {
 /* começo do cabeçlho do sate */
 
 header {
-    background-color:#D4AF37;
+    background-color:#f8DF82;
     justify-content:space-around;
     align-items:center;
     display: flex;
@@ -12,25 +12,31 @@ header {
 
 }
 
-header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    gap: 10px;
-}
-
 
 header h1 {
-    color:#FDFDFB;
+    color:black;
     display: flex;
     font-size: 40px;
 
 }
-/*final do cabeçalho*/
+
+header button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.header button {
+
+    border-radius: 50px;
+    font-size: 15px;
+
+}
 
 header ul {
     
-    color:white;
+    color:black;
     font-size:20px;
     justify-content:right;
     display: flex;
@@ -41,19 +47,21 @@ header ul {
 header ul li {
 
     list-style: none;
+    text-decoration:double underline;
+    color:#D4AF37;
 
 }
 
 header ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
 
 }
 
 .section-b {
 
-    background-color: blue;
+    background-color: white;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -64,9 +72,9 @@ header ul li a {
 .div-b-01 {
     text-align: center;
     width: 200px;
-    background-color: aqua;
-    padding: 20px;
-    box-shadow: 5px 5px 10px black;
+    background-color:#D4AF37;
+    padding: 5px;
+    box-shadow: 10px 10px 15px black;
     border-radius: 10px;
     align-items: center;
     flex-direction: column;
@@ -74,18 +82,13 @@ header ul li a {
     height: 200px;
 }
 
-.div-b-01 p {
-    text-align: center;
-    font-size: 20px;
-    color: black;
-    margin-top: 10px;
-    padding: 50px;
-}
+
 
 .div-b-01 img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
 
 }
 
@@ -94,3 +97,66 @@ header ul li a {
     color: black;
 
 }
+
+
+.div-b-01 i {
+    padding: 35px;
+    color: black;
+}
+
+footer {
+    background-color: #D4AF37;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+footer i {
+    color:black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-self: unset;
+
+}
+
+footer p {
+    font-size: 15px;
+    color:black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+    footer h2 {
+        margin: 0;
+        font-size: 20px;
+        color: black;
+
+    }
+
+    footer ul {
+        list-style: none;
+        padding: 0%;
+
+
+    }
+
+    footer ul li {
+        display: inline;
+        margin-right: 10px;
+        list-style: none;
+
+
+    }
+
+    footer ul li a {
+        text-decoration: none;
+        color: black;
+
+    }
