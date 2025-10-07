@@ -5,10 +5,17 @@ body {
 
 header {
     background-color:#D4AF37;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items:center;
     display: flex;
-
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:0;
 
 }
 
@@ -76,7 +83,14 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 text-align: center;
-
+position: fixed;
+width: 100%;
+padding: 10px;
+gap: 10px;
+top: 0;
+left: 0;
+right: 0;
+z-index: 0;
 
 }
 
@@ -219,7 +233,28 @@ padding: 35px;
     height: 270px;
 }
 
-/*ibniçio da pagina brincos*/
+.cadastro {
+    background-color: #D4AF37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 10px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.cadastro p {
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/*início da pagina brincos*/
 
 
 /* inicio do footer */
