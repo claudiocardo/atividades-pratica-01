@@ -165,6 +165,7 @@ input img.url {
     width: 190px;
     padding: 0px;
     height: 120px;
+    border-radius: 10px;
 
 }
 
@@ -180,6 +181,11 @@ input img.url {
 color: black;
 font-size: 19px;
 text-align: center;
+
+}
+
+.nenu-black a {
+    text-decoration:none;
 
 }
 
